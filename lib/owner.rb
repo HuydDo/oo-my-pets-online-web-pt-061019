@@ -69,8 +69,8 @@ class Owner
   end
 
   def list_pets
-    cat_count = pets[:cats].size
-    dog_count = pets[:dogs].size
+    # cat_count = pets[:cats].size
+    # dog_count = pets[:dogs].size
     cat_count = @pets.length if @pets.has_key?(:cats)
     dog_count = @pets.length if @pets.has_key?(:dogs)
     # binding.pry
