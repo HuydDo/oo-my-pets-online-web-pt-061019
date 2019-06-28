@@ -10,7 +10,6 @@ class Cat
     @@all << self
     owner.pets[:cats] << self
     @owner = owner.owner
-    # binding.pry
   end
 
   def self.all
